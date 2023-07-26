@@ -1,15 +1,21 @@
+
+body{
+    background-color: #F6F4EB;
+}
+
 .info{
     text-align: center;
 }
 .banner{
     margin: auto;
-    background-color: grey;
+    background-color: #4682A9;
     height: 100px;
     width: 500px;
 }
 
 .banner h1{
     text-align: center;
+    color: cornsilk;
 }
 
 .banner button{
@@ -17,7 +23,7 @@
 }
 
 .board{
-    border: 2px solid black;
+    
     width: 400px;
     height: 350px;
     margin: auto;
@@ -28,4 +34,9 @@ td > div{
     width: 50px;
     border: 1px solid black;
     border-radius: 50px;
+}
+
+table{
+    border: 2px solid black;
+    background-color: #91C8E4;
 }
